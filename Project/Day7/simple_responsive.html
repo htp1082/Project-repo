@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Responsive</title>
+
+    <style>
+
+
+        .container{
+            display: flex;
+            gap: 30px;
+        }
+
+        .flex-box img{
+
+            width: 100%;
+            
+        }
+
+        @media screen and (max-width: 576px){
+
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="flex-box">
+            <img src="nature.jpg" alt="Nature">
+            <h2>Flex Box 01</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quasi ratione error minima natus eligendi itaque. Sint esse repudiandae, facere molestias maiores quod dolore accusantium consequuntur explicabo aliquid ducimus sunt?
+            Laboriosam reprehenderit consequuntur maxime corporis nobis fugit inventore explicabo aliquam, esse, deserunt, est illum vitae voluptates sequi. Voluptatem rerum culpa aliquam hic impedit? Temporibus aperiam molestiae hic esse dolorum ducimus.</p>
+        </div>
+
+        <div class="flex-box">
+             <img src="nature.jpg" alt="Nature">
+            <h2>Flex Box 01</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quasi ratione error minima natus eligendi itaque. Sint esse repudiandae, facere molestias maiores quod dolore accusantium consequuntur explicabo aliquid ducimus sunt?
+            Laboriosam reprehenderit consequuntur maxime corporis nobis fugit inventore explicabo aliquam, esse, deserunt, est illum vitae voluptates sequi. Voluptatem rerum culpa aliquam hic impedit? Temporibus aperiam molestiae hic esse dolorum ducimus.</p>
+        </div>
+    </div>
+    
+</body>
+</html>

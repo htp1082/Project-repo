@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+nav li a{
+
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 40px;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(201, 232, 198);
+    padding: 30px;
+}
+
+.hero-container .hero-content{
+    width: 60%;
+    padding: 20px;
+}
+
+.hero-content h1{
+    font-size: 60px;
+    color: #dd6161;
+}
+
+.hero-content p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+
+.hero-container img{
+    height: 400px;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.hero-content button{
+   height: 50px;
+   width: 200px;
+   font-size: 20px;
+   border-radius: 10px;
+   background-color: rgb(218, 22, 22);
+   color: white;
+   font-style: bold;
+   cursor: pointer;
+}
+
+.hero-content button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+/* card section */
+
+.card-section{
+   margin: 20px;
+   text-align: center;
+   
+}
+
+.card-section h2{
+    font-size: 60px;
+    margin: 10px;
+    color: red;
+}
+
+.card-section p{
+    font-size: 30px;
+}
+
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+
+}
+
+.card{
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(223, 0, 0);
+    margin: 20px 0;
+    box-shadow: 10px 10px 10px rgb(1, 1, 36,0.5);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+.card-content{
+    margin: 20px 0;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.card-content h3{
+    font-size: 30px;
+    color: brown;
+}
+.card-content p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.buy_now{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(46, 221, 151);
+    color: aliceblue;
+}
+
+.buy_now:hover{
+    background-color: red;
+    color: green;
+    cursor: pointer;
+}

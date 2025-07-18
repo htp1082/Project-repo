@@ -1,0 +1,50 @@
+
+
+img{
+    height: 400px;
+    width: 100%;
+}
+
+.bg{
+
+    height: 300px;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+.rows{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.vertical-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rows> div{
+    flex: 1;
+}
+
+.vertical-flex img{
+    height: calc((100% - 5px)/2);
+    
+}
+
+.squre-collage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+
+.squre-collage img{
+    height:100%;
+}
+

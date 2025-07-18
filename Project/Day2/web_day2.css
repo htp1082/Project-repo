@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bg{
+       height: 400px;
+       width: 100%;
+       background-size: contain;
+}
+
+h1{
+    color: red;
+    background-color: green;
+    text-align: center;
+}
+
+#hd_tag{
+
+    text-align: center;
+    color: red;
+}
+
+#person{
+    height: 100px;
+    background-color: rgb(224, 242, 242);
+    padding: 10px;
+}
+
+
+h3{
+    color: brown;
+    font-size: 30px;
+    margin: 10px 0;
+    background-color: rgb(212, 222, 222);
+}
+
+#person p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.place{
+    
+    margin: 20px;
+}
+
+.place img{
+    height: 500px;
+    width: 80%;
+    margin:auto 10%;
+}
+
+.place h3{
+    color: coral;
+    text-align: center;
+}
+
+.place h4{
+    color: green;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.place p{
+    font-size: 20px;
+}
+button{
+    margin: 10px 0;
+    outline: none;
+}
+
+.place ul li{
+    font-size: 20px;
+    margin: 20px;
+    list-style-type: square;
+}
+
+.place ol li{
+    font-size: 20px;
+    margin: 20px 20px;
+}

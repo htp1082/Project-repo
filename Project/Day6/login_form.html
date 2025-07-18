@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form and navbar</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        nav ul a{
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .login{
+            margin-right: 20px;
+        }
+
+        input{
+            padding: 20px 100px;
+            background-color: antiquewhite;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .login-form{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-form-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+        }
+
+        button{
+            width: 100%;
+            padding: 10px 20px;
+            background-color: rgb(87, 87, 226);
+            color: white;
+            font-weight: 900;
+            border-radius: 5px;
+            
+        }
+
+        label{
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+        .login-heading{
+            margin-bottom: 20px;
+        }
+
+    
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <nav>
+            <ul>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="" >Contact</a>
+                
+            </ul>
+
+            <h2 class="login">Login</h2>
+        </nav>
+
+        <section class="login-form-container">
+
+            <div class="login-form">
+
+                <div class="login">
+
+                      <h2 class="login-heading">Login Form</h2>
+          
+            <form action="">
+                <label for="">Name:</label><br>
+                <input type="text" ><br><br>
+                <label for="">Password:</label><br>
+                <input type="password" ><br><br>
+                <button>Login</button>
+            </form>
+
+                 </div>
+
+          
+
+            </div>
+
+        </section>
+        
+    </header>
+    
+</body>
+</html>
